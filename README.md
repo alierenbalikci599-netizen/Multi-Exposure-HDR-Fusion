@@ -95,4 +95,4 @@ Accuracy is not used because this project is not a classification problem. PSNR 
 
 ## Summary
 
-This project shows that combining multiple exposure images can improve the visibility of details in high-contrast scenes compared to using a single exposure image. Among the tested methods, Mertens Fusion with CLAHE was used as the final enhanced output because it combines exposure information and improves local contrast.
+This project shows that combining multiple exposure images can improve the visibility of details in high-contrast scenes compared to using a single exposure image. Among the tested methods, Mertens Fusion with CLAHE was used as the final enhanced output because it combines exposure information and improves local contrast. The exposure times (1/60s, 1/15s, 1/4s) are based on the standard stops of the Cambridge Multi-Exposure HDR Dataset used in this project to ensure accurate radiance reconstruction in Debevec and Robertson methods.
